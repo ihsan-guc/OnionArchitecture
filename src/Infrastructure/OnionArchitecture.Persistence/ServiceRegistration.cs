@@ -2,12 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using OnionArchitecture.Application.Interface;
 using OnionArchitecture.Persistence.Context;
-using OnionArchitecture.Persistence.Respository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using OnionArchitecture.Persistence.Repository;
 
 namespace OnionArchitecture.Persistence
 {

@@ -3,7 +3,7 @@ using OnionArchitecture.Application.Interface;
 using OnionArchitecture.Domain.Comman;
 using OnionArchitecture.Persistence.Context;
 
-namespace OnionArchitecture.Persistence.Respository
+namespace OnionArchitecture.Persistence.Repository
 {
     public class EFRepository<TEntity> : IEFRepository<TEntity> where TEntity : BaseEntity
     {

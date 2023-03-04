@@ -8,7 +8,10 @@ namespace OnionArchitecture.Application.Features.Commands.CreatePerson
 {
     public class CreatePersonCommand : IRequest<ServiceResponse<int>>
     {
-        public int Id { get; set; }
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public int Height { get; set; }
+        public int Weight { get; set; }
 
         public class CreatePersonCommandHandle : IRequestHandler<CreatePersonCommand, ServiceResponse<int>>
         {
