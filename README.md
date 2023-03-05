@@ -9,7 +9,7 @@ Domain, Application, Persistence, Infrastructure, and Presentation. These layers
 <br> 
 
 <p align="center">
-  <img src="https://www.gencayyildiz.com/blog/wp-content/uploads/2021/03/Nedir-Bu-Onion-Architecture-1.png" width="350" alt="onion_architecture">
+  <img src="https://github.com/ihsan-guc/OnionArchitecture/blob/master/src/WebApi/OnionArchitecture.WebApi/Content/OnionArhitecture.png" width="350" alt="onion_architecture">
 </p>
 <br>
 
