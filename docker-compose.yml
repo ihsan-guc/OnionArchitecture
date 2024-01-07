@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  onionarchitecture.webapi:
+    image: onionarchitecturewebapi
+    build:
+      context: .
+      dockerfile: src/WebApi/OnionArchitecture.WebApi/Dockerfile
